@@ -59,7 +59,8 @@
                 "../node_modules/echarts/dist/echarts.min.js",
                 "../node_modules/echarts/dist/echarts.common.min.js",
                 "../node_modules/echarts/dist/extension/bmap.min.js",
-                "../node_modules/echarts/dist/extension/dataTool.min.js"
+                "../node_modules/echarts/dist/extension/dataTool.min.js",
+                "../node_modules/echarts/map/js/china.js"
             ],
             "environmentSource": "environments/environment.ts",
             "environments": {

@@ -16,7 +16,6 @@ import { ForgetPwdService } from './user/forget-pwd/forget-pwd.service';
 
 import { EqualValidator } from './user/user-register/directives/equal-validator.directive';
 import { appRoutes } from './app.routes';
-import { Ng2EchartsDirective } from './chart/directive/ng2-echarts.directive';
 
 
 export function createTranslateLoader(http: Http) {
@@ -28,8 +27,7 @@ export function createTranslateLoader(http: Http) {
     AppComponent,
     ForgetPwdComponent,
     UserRegisterComponent,
-    EqualValidator,
-    Ng2EchartsDirective
+    EqualValidator
   ],
   imports: [
     BrowserModule,

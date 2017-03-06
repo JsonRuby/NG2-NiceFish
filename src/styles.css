@@ -1,17 +1,1 @@
 /* You can add global styles to this file, and also import other style files */
-.nf-chart{
-    width:400px;
-    height:400px;
-    float:left;
-}
-
-.nf-chart-fat{
-    width:1000px;
-    height:400px;
-    float:left;
-}
-.nf-chart-fat-h-w{
-    width:1000px;
-    height:800px;
-    float:left;
-}
