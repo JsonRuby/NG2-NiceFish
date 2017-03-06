@@ -1,0 +1,12 @@
+<div class="user-main-container" [@flyIn]="active">
+    <div class="row">
+        <div class="col-sm-9">
+            <router-outlet></router-outlet>
+        </div>
+        <div class="col-sm-3">
+            <div class="list-group">
+                <a routerLink="linechart" class="list-group-item">Line Chart</a>
+            </div>
+        </div>
+    </div>
+</div>
